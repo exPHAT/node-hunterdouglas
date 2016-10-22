@@ -1,0 +1,33 @@
+{
+  "name": "node-hunterdouglas",
+  "version": "0.0.1",
+  "description": "Promise based API for Hunter Douglas blinds",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExPHAT/node-hunterdouglas.git"
+  },
+  "keywords": [
+    "hunter",
+    "douglas",
+    "blinds",
+    "hunterdouglas",
+    "controller",
+    "api",
+    "base",
+    "station",
+    "basestation"
+  ],
+  "author": "Aaron Taylor <me@exphat.com> (http://exphat.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ExPHAT/node-hunterdouglas/issues"
+  },
+  "homepage": "https://github.com/ExPHAT/node-hunterdouglas#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  }
+}
