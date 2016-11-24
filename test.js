@@ -1,3 +1,4 @@
+// require("babel/register");
 const hd = require(".");
 
 const blindController = hd({
@@ -6,13 +7,14 @@ const blindController = hd({
 });
 
 blindController.setup().then(function (rooms) {
-  console.log('rooms', rooms);
+  console.log('JSON.stringify(rooms)', JSON.stringify(rooms));
 
-  blindController.close("family room").then(function (data) {
-    console.log('data', data);
-  }).catch(function (err) {
-    console.log('err', err);
-  }).then(function () {
-    blindController.disconnect();
-  });
+  // blindController.move("kitchen", 0.5).then(function (data) {
+  //   console.log('data', data);
+  // }).catch(function (err) {
+  //   console.log('err', err);
+  // }).then(function () {
+  //   blindController.disconnect();
+  // });
+  blindController.disconnect();
 });
