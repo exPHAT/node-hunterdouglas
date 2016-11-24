@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/ExPHAT/node-hunterdouglas#readme",
   "dependencies": {
+    "babel": "^5.8.20",
     "bluebird": "^3.4.6"
   }
 }
