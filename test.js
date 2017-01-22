@@ -1,4 +1,3 @@
-// require("babel/register");
 const hd = require(".");
 
 const blindController = hd({
